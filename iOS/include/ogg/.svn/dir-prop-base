@@ -1,8 +1,0 @@
-K 10
-svn:ignore
-V 36
-Makefile
-Makefile.in
-config_types.h
-
-END
