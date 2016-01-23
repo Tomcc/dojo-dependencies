@@ -30,7 +30,6 @@ extern "C" {
  * Scanning files in zip archive.
  * Implemented in zzip/dir.c
  */
-#ifndef ANDROID
 _zzip_export
 long zzip_telldir32(ZZIP_DIR * dir);
 _zzip_export
@@ -44,7 +43,6 @@ _zzip_export
 long      zzip_seek32(ZZIP_FILE * fp, long offset, int whence);
 _zzip_export
 long      zzip_tell32(ZZIP_FILE * fp);
-#endif
 
 #ifdef __cplusplus
 }

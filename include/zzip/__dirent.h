@@ -24,10 +24,8 @@
 #define _zzip_readdir   readdir
 #define _zzip_closedir  closedir
 #define _zzip_rewinddir rewinddir
-#ifndef ANDROID
 #define _zzip_telldir   telldir
 #define _zzip_seekdir   seekdir
-#endif
 #define _zzip_DIR       DIR
 
 #include <dirent.h>
