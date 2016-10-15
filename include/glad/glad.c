@@ -357,7 +357,7 @@ PFNGLPOLYGONOFFSETPROC glad_glPolygonOffset;
 PFNGLCLEARBUFFERUIVPROC glad_glClearBufferuiv;
 PFNGLUNIFORM3UIVPROC glad_glUniform3uiv;
 PFNGLVERTEXATTRIBIPOINTERPROC glad_glVertexAttribIPointer;
-int GLAD_GL_KHR_debug;
+int GLAD_GL_KHR_debug = 0;
 int GLAD_GL_EXT_texture_filter_anisotropic;
 PFNGLDEBUGMESSAGECONTROLPROC glad_glDebugMessageControl;
 PFNGLDEBUGMESSAGEINSERTPROC glad_glDebugMessageInsert;
